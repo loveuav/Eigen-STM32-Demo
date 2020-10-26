@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Cortex Debug",
+        "cwd": "${workspaceRoot}",
+        "executable": "./build/Eigen-STM32-Demo.elf", //固件路径，需要根据实际情况修改
+        "request": "launch",
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "configFiles": [
+          "interface/jlink.cfg", 
+          "target/stm32f4x.cfg" 
+        ]
+      }
+    ]
+  }

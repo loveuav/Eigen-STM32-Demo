@@ -1,0 +1,14 @@
+OBJ/
+build/
+*.TMP
+MDK/OBJ/
+MDK/*.txt
+MDK/*.ini
+MDK/*.bak
+MDK/DebugConfig/
+MDK/*.scvd
+MDK/*.Administrator
+MDK/*.uvoptx
+MDK/*.dep
+MDK/*.uvguix.*
+*.orig
